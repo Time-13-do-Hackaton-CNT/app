@@ -1,0 +1,61 @@
+#page-landing {
+  background: #39cc83;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+#container {
+  margin: auto;
+  width: min(90%, 122rem);
+}
+
+.location,
+h1,
+.visit p {
+  height: 16vh;
+}
+
+#logo {
+  animation-delay: 50ms;
+}
+
+.location {
+  animation-delay: 100ms;
+}
+
+main h1 {
+  animation-delay: 150ms;
+  font-size: clamp(4rem, 8vw, 8.4rem);
+}
+.visit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visit a {
+  margin-top: 11em;
+  text-align: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  width: clamp(20rem, 20vw, 30rem);
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+/*desktop version*/
+@media (min-width: 780px) {
+  .visit {
+    margin-top: 5rem;
+    height: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    width: clamp(20rem, 20vw, 30rem);
+    font-size: 3rem;
+  }
+}
