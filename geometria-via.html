@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Geometria da Via</title>
 
     <link rel="icon" href="./public/images/logo-icon.png">
 
@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./public/css/animations.css">
     <link rel="stylesheet" href="./public/css/navbar.css">
     <link rel="stylesheet" href="./public/css/buttons.css">
-    <link rel="stylesheet" href="./public/css/menu.css">
+    <link rel="stylesheet" href="./public/css/form.css">
+
 
 
     <link rel="stylesheet" href="./public/css/page-orphanage.css">
@@ -21,44 +22,104 @@
 
 <body >
   <div id="page-orphanage">
-      <aside class="animate-right sidebar">
-          <footer>
-              <button onclick="history.back()">
-                    <img src="./public/images/arrow-back.svg" alt="Voltar"> <span>Menu de Informações</span> 
-                </button>
-            </footer>
-        </aside>
+    <aside class="animate-right sidebar">
+        <footer>
+            <button onclick="history.back()">
+                  <img src="./public/images/arrow-back.svg" alt="Voltar"> <span>Menu de Informações</span> 
+              </button>
+          </footer>
+    </aside>
 
-        <main class="animate-appear with-sidebar">
+      <main class="animate-appear with-sidebar">
+          
+          <div class="opcoes">
+              <form>
+                  <p>1. Tipo de rodovia</p>
+                  <input type="checkbox" name="bike">
+                  Pista dupla
+                  <br>
+                  <input type="checkbox" name="car">
+                  Pista simples
+                  <br>
+                  <input type="checkbox" name="car">
+                  Mão única
+                  <br>
+                  <input type="checkbox" name="car">
+                  Mão dupla 
+                  <br>
+                  <input type="checkbox" name="car">
+                  Com canteiro central
+                  <br>
+                  <input type="checkbox" name="car">
+                  Com barreira central
+              </form>
+                
+            </div>
+
             <div class="op">
-                <a href="#"  class="animate-up">
-                    <p>Geometria da Via</p>
-                </a>
+                <form>
+                    <p>2. Perfil da rodovia</p>
+                    <input type="checkbox" name="bike">
+                    Plano 
+                    <br>
+                    <input type="checkbox" name="car">
+                    Ondulado
+                    <br>
+                    <input type="checkbox" name="car">
+                    Montonhoso
+                </form>
+                  
             </div>
 
-            <div class="opcoes">
-                <a href="#"  class="animate-up">
-                    <p>Pavimentação</p>
-                </a>
+            <div class="op">
+                <form>
+                    <p>3. Curvas perigosas</p>
+                    <input type="checkbox" name="bike">
+                    Com curvas perigosas
+                    <br>
+                    <input type="checkbox" name="car">
+                    Sem curvas perigosas
+                    <br>
+                    <input type="checkbox" name="car">
+                    Com placas indicativas
+                </form>
             </div>
 
-            <div class="opcoes">
-                <a href="#"  class="animate-up">
-                    <p>Sinalização</p>
-                </a>
+            <div class="op">
+                <form>
+                    <p>4. Acostamento</p>
+                    <input type="checkbox" name="bike">
+                    Com acostamento
+                    <br>
+                    <input type="checkbox" name="car">
+                    Sem acostamento
+                    <br>
+                    <input type="checkbox" name="car">
+                    Pavimentação perfeito
+                    <br>
+                    <input type="checkbox" name="car">
+                    Não pavimentado perfeito
+                    <br>
+                    <input type="checkbox" name="car">
+                    Destruído
+                </form>
+            </div>
+            
+            <div class="op">
+                <form>
+                    <p>5. Outros</p>
+                    <input type="checkbox" name="bike">
+                    Com pontes ou viadutos
+                    <br>
+                    <input type="checkbox" name="car">
+                    Sem pontes ou viadutos1
+                    <br>
+                    <input type="checkbox" name="car">
+                    Possui faixa adicional de subida
+                </form>     
             </div>
 
-            <div class="opcoes">
-                <a href="#"  class="animate-up">
-                    <p>Infraestrutura de Apoio</p>
-                </a>
-            </div>
-
-            <div class="opc">
-                <a href="#"  class="animate-up">
-                    <p>Encerrar Coleta</p>
-                </a>
-            </div>
+            
 
         </main>
     </div>
